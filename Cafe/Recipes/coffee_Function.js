@@ -43,8 +43,8 @@
 
 // //this function will show coffee price to customer
 
-// function showCoffeePrice(cupSize) {
-//     let price = setCoffeePrice(cupSize)
-//     console.log(`The order price is ${price}$`)
-// }
-// showCoffeePrice("small")
+function showCoffeePrice(cupSize) {
+    let price = setCoffeePrice(cupSize)
+    console.log(`The order price is ${price}$`)
+}
+showCoffeePrice("small")

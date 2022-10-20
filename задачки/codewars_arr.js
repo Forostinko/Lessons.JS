@@ -97,3 +97,52 @@
 // function saleHotdogs(n){
 //     return n < 5 ? n * 100 : n >= 5 && n < 10 ? n * 95 : n * 90;
 //   }
+
+
+
+// https://www.codewars.com/kata/580a4734d6df748060000045/train/javascript
+
+// function isSortedAndHow(array) {
+//     if (ascending(array))  {
+//       return 'yes, ascending'
+//     } else if (descending(array)) {
+//       return 'yes, descending'
+//     } else {
+//       return "no"
+//     }
+    
+//     function ascending(array) {
+//       for (let i = 1; i < array.length; i++) {
+//         let current = array[i]
+//         let previuos = array[i - 1]
+//         if (current < previuos) {
+//           return false
+//         }
+//       }
+//       return true
+//     }
+    
+//     function descending(array) {
+//       for (let i = 1; i < array.length; i++) {
+//         let current = array[i]
+//         let previuos = array[i - 1]
+//         if (current > previuos) {
+//           return false
+//         }
+//       }
+//       return true
+//    }
+//   }
+
+
+
+
+  // https://www.codewars.com/kata/515e271a311df0350d00000f/train/javascript
+
+//   function squareSum(numbers){
+//     let sum = 0
+//     for (let i = 0; i < numbers.length; i++) {
+//       sum += numbers[i] ** 2 
+//     }
+//       return sum
+//     }

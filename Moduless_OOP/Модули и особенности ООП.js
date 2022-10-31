@@ -17,32 +17,35 @@
 // /**
 //  * JavaScript ES6 (also known as ECMAScript 2015 or ECMAScript 6) is the newer version of JavaScript that was introduced in 2015. ECMAScript is the standard that JavaScript programming language uses. 
 //  */
-// class Animal {
-//    constructor(name, eyes) {
-//       this.name = name;       //this refers to current object
-//       this.eyes = eyes;
-      
-//    }
-//    getName() {
-//       return (`The name of the animal is ${this.name}.`)
-//    }
-//    canEat() {
-//       console.log(`This animal can eat`)
-//    }
-// }
-// // Making object with the help of the constructor
-// let animal1 = new Animal("tiger");
-// let animal2 = new Animal('salmon', "blue");
 
-// console.log(animal1.name);
-// console.log(animal1.getName())
-// animal1.eyes = "yellow"   
-// console.log(animal1.eyes); 
-// animal2.canEat()  
-// console.log("===========================================")
+Making CLASS
+class Animal {
+   constructor(name, eyes) {
+      this.name = name;       //this refers to current object
+      this.eyes = eyes;
+      
+   }
+   getName() {
+      return (`The name of the animal is ${this.name}.`)
+   }
+   canEat() {
+      console.log(`This animal can eat`)
+   }
+}
+// Making OBJECT with the help of the constructor
+let animal1 = new Animal("tiger");
+let animal2 = new Animal('salmon', "color");
+
+console.log(animal1.name);
+console.log(animal1.getName())
+animal1.eyes = "yellow"   
+console.log(animal1.eyes); 
+animal2.canEat()  
+console.log("===========================================")
+
 
 // class Mammals extends Animal{
-//    //ovberrides cunstructor
+//    //ovberrides cunstructor (перезаписываем)
 //    constructor(name, eyes, skin, legs, claws){  //animal nails
 //        super(name, eyes)
       
